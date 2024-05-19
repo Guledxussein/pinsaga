@@ -53,6 +53,13 @@ def logout():
     logout_user()
     return {'message': 'User logged out'}
 
+@auth_routes.route('user/<string:user_name>')
+def get_user(user_name):
+    try :
+        user = User.query.filter(User.username==user_name).one()
+        return user.to_dict()
+    except:
+        return { 'errors': 'User not found'}, 404
 
 @auth_routes.route('/signup', methods=['POST'])
 def sign_up():
@@ -65,7 +72,9 @@ def sign_up():
         user = User(
             username=form.data['username'],
             email=form.data['email'],
-            password=form.data['password']
+            password=form.data['password'],
+            first_name=form.data['firstName'],
+            last_name=form.data['lastName'],
         )
         db.session.add(user)
         db.session.commit()
