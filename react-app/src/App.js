@@ -26,12 +26,6 @@ function App() {
             <Navigation />
             <BrowsePage isLoaded={isLoaded} />
           </ProtectedRoute>
-          {/* <Route path="/login" >
-            <LoginFormPage />
-          </Route>
-          <Route path="/signup">
-            <SignupFormPage />
-          </Route> */}
         </Switch>
       )}
     </>

@@ -27,18 +27,18 @@ function ProfileButton() {
 
   const LinkedInLink = (e) => {
     e.preventDefault();
-    window.open('https://www.linkedin.com/in/michael-s-688653118/', '_blank');
+    window.open('https://www.linkedin.com/in/guled-hussein-955a36239/', '_blank');
   };
 
   const GithubLink = (e) => {
     e.preventDefault();
-    window.open('https://github.com/mike-650', '_blank');
+    window.open('https://github.com/Guledxussein', '_blank');
   };
 
   return (
     <div className="PB-login-signup-container">
-      <i className="fa-brands fa-github fa-2xl mike-socials" onClick={(e) => GithubLink(e)}></i>
-      <i className="fa-brands fa-linkedin fa-2xl mike-socials" onClick={(e) => LinkedInLink(e)}></i>
+      <i className="fa-brands fa-github fa-2xl guled-socials" onClick={(e) => GithubLink(e)}></i>
+      <i className="fa-brands fa-linkedin fa-2xl guled-socials" onClick={(e) => LinkedInLink(e)}></i>
       <OpenModalButton
         buttonText="Log in"
         onItemClick={closeMenu}

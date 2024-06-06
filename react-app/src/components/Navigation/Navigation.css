@@ -1,7 +1,119 @@
-.profile-dropdown {
-  position: absolute;
+.NV-container {
+  display: flex;
+  justify-content: space-evenly;
+  position: sticky;
+  top: .01px;
+  z-index: 999;
+  background-color: white;
+  opacity: .97;
+  padding: 10px;
 }
 
-.hidden {
-  display: none;
+.NV-pinstory-logo {
+  height: 30px;
+  width: 30px;
+  padding-right: 15px;
+}
+
+.NV-pinstory-logo:hover {
+  cursor: pointer;
+}
+
+.NV-left-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.NV-left-section img {
+  margin-right: 10px;
+}
+
+.NV-left-section p {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.NV-home-link {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  margin-bottom: 4.5px;
+  margin-top: 4px;
+}
+
+
+.NV-create-pin-container {
+  font-size: 15px;
+}
+
+.NV-createpin-icon {
+  user-select: none;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.NV-search-bar-container {
+  display: flex;
+  align-items: center;
+  width: 75%;
+}
+
+.NV-create-link {
+  margin-top: 14px;
+}
+
+.NV-create-link:hover {
+  cursor: pointer;
+}
+
+#NV-search-icon {
+  position: relative;
+  left: 30px;
+  color: rgb(95, 95, 95);
+}
+
+#NV-search-bar {
+  width: 100%;
+  height: 40px;
+  border-radius: 30px;
+  padding: 25px;
+  padding-left: 40px;
+  border: 1px solid transparent;
+  background-color: rgb(233, 233, 233)
+}
+
+#NV-search-bar:hover {
+  background-color: rgb(225, 225, 225);
+}
+
+.NV-profile-section {
+  display: flex;
+  justify-content: space-evenly;
+  width: 10%;
+  align-items: center;
+}
+
+.PM-profile-picture {
+  width: 35px;
+  height: 35px;
+  border-radius: 30px;
+}
+
+.PM-profile-picture:hover {
+  box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.5);
+}
+
+
+.mike-socials:hover {
+  cursor: pointer;
+  transform: rotate(360deg);
+  transition: transform 0.5s ease-in-out;
 }
