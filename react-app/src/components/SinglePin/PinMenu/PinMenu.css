@@ -1,0 +1,50 @@
+.SinglePM-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    /* margin-top: 100px; */
+    right: 43.7%;
+    top: 17.5%;
+    height: 10%;
+    width: 10%;
+    box-shadow: 5px 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .SinglePM-edit-button {
+    width: 100%;
+    user-select: none;
+  }
+  
+  .EP-modal-button {
+    color: black;
+    border: transparent;
+    background-color: transparent;
+    border-radius: 20px;
+    user-select: none;
+    width: 100%;
+  }
+  
+  .EP-modal-button:hover {
+    cursor: pointer;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+  }
+  
+  .DP-modal-button {
+    color: black;
+    border: transparent;
+    background-color: transparent;
+    border-radius: 20px;
+    user-select: none;
+    width: 100%;
+  }
+  
+  .DP-modal-button:hover {
+    cursor: pointer;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+  }
+  
